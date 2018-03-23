@@ -14,6 +14,7 @@
 		5CB8A086206398EA00FE3B27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB8A085206398EA00FE3B27 /* Assets.xcassets */; };
 		5CB8A089206398EA00FE3B27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB8A087206398EA00FE3B27 /* LaunchScreen.storyboard */; };
 		5CB8A08C206398EA00FE3B27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB8A08B206398EA00FE3B27 /* main.m */; };
+		5CB8A09820639BE000FE3B27 /* CTMediator+A.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB8A09720639BE000FE3B27 /* CTMediator+A.m */; };
 		5E74F27B9D0EC2AE96AA3FA6 /* libPods-A_Category.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFF5A2EC82AD9A190548A06 /* libPods-A_Category.a */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,8 @@
 		5CB8A088206398EA00FE3B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CB8A08A206398EA00FE3B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CB8A08B206398EA00FE3B27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CB8A09620639BE000FE3B27 /* CTMediator+A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+A.h"; sourceTree = "<group>"; };
+		5CB8A09720639BE000FE3B27 /* CTMediator+A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+A.m"; sourceTree = "<group>"; };
 		BB461E4F59D58FB8109611C1 /* Pods-A_Category.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A_Category.release.xcconfig"; path = "Pods/Target Support Files/Pods-A_Category/Pods-A_Category.release.xcconfig"; sourceTree = "<group>"; };
 		DFFF5A2EC82AD9A190548A06 /* libPods-A_Category.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-A_Category.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -75,6 +78,7 @@
 		5CB8A078206398E900FE3B27 /* A_Category */ = {
 			isa = PBXGroup;
 			children = (
+				5CB8A09220639ABD00FE3B27 /* A_Category */,
 				5CB8A079206398EA00FE3B27 /* AppDelegate.h */,
 				5CB8A07A206398EA00FE3B27 /* AppDelegate.m */,
 				5CB8A07C206398EA00FE3B27 /* ViewController.h */,
@@ -85,6 +89,15 @@
 				5CB8A08A206398EA00FE3B27 /* Info.plist */,
 				5CB8A08B206398EA00FE3B27 /* main.m */,
 				5CB8A082206398EA00FE3B27 /* A_Category.xcdatamodeld */,
+			);
+			path = A_Category;
+			sourceTree = "<group>";
+		};
+		5CB8A09220639ABD00FE3B27 /* A_Category */ = {
+			isa = PBXGroup;
+			children = (
+				5CB8A09620639BE000FE3B27 /* CTMediator+A.h */,
+				5CB8A09720639BE000FE3B27 /* CTMediator+A.m */,
 			);
 			path = A_Category;
 			sourceTree = "<group>";
@@ -227,6 +240,7 @@
 				5CB8A07B206398EA00FE3B27 /* AppDelegate.m in Sources */,
 				5CB8A08C206398EA00FE3B27 /* main.m in Sources */,
 				5CB8A084206398EA00FE3B27 /* A_Category.xcdatamodeld in Sources */,
+				5CB8A09820639BE000FE3B27 /* CTMediator+A.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
